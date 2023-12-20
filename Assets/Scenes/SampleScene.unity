@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -488,23 +488,35 @@ MonoBehaviour:
   origin: {fileID: 527509185}
   models:
   - name: "Bia\u0142y"
-    icon: {fileID: 21300000, guid: 93d779be09a3682408cf203c67aa1eab, type: 3}
+    icon: {fileID: 21300000, guid: f4115e392029d4048bdafd3e7061fbe5, type: 3}
     prefab: {fileID: 3820597530829078601, guid: ba01461e3d679f943a614f2daf05c5d6,
       type: 3}
   - name: Czerwony
-    icon: {fileID: 21300000, guid: 93d779be09a3682408cf203c67aa1eab, type: 3}
+    icon: {fileID: 21300000, guid: 0c840781fceb6c747aa34bf75ab7174c, type: 3}
     prefab: {fileID: 4442204741816196715, guid: 80a01163eb7be9c49b525015f1e345d0,
       type: 3}
   - name: "\u017B\xF3\u0142ty"
-    icon: {fileID: 21300000, guid: 93d779be09a3682408cf203c67aa1eab, type: 3}
+    icon: {fileID: 21300000, guid: 144645f2fceb5ea4490e3273b7def2f0, type: 3}
     prefab: {fileID: 5456370334921217225, guid: b8b68648e9c156041bafef623a4ceb93,
       type: 3}
   - name: Zielony
-    icon: {fileID: 21300000, guid: 93d779be09a3682408cf203c67aa1eab, type: 3}
+    icon: {fileID: 21300000, guid: 7746cdacc3ec5654e9f03e996248cff6, type: 3}
     prefab: {fileID: 556144725233272558, guid: a99d993a7c5363d4f9c414443bf2e6cc, type: 3}
   - name: Niebieski
-    icon: {fileID: 21300000, guid: 93d779be09a3682408cf203c67aa1eab, type: 3}
+    icon: {fileID: 21300000, guid: 0c8b2b0078fbc0545bef4eb169fac9d5, type: 3}
     prefab: {fileID: 1629304850241826628, guid: db9b58dd43e98d842aedc61a7786138f,
+      type: 3}
+  - name: Okulary
+    icon: {fileID: 21300000, guid: a95f30a97c4ba644587b80ecd8d6ac05, type: 3}
+    prefab: {fileID: 1629304850241826628, guid: e97c9e7abb4b09c4c8badf2dee806231,
+      type: 3}
+  - name: Jedzonko
+    icon: {fileID: 21300000, guid: 73723f422f9e6f84a852715cd66bd5e3, type: 3}
+    prefab: {fileID: 1629304850241826628, guid: d1011e70b60adc848855f84ec113ca04,
+      type: 3}
+  - name: Gwiazda
+    icon: {fileID: 21300000, guid: f7fcc229b4ec4994fb77a5199c6c08f4, type: 3}
+    prefab: {fileID: 1629304850241826628, guid: b315c01011f38704398bb293f0672af6,
       type: 3}
   index: 0
   isChanging: 0
@@ -896,7 +908,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 885959665}
   m_Direction: 0
   m_Value: 0.5
-  m_Size: 0.4076197
+  m_Size: 0.4246111
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
