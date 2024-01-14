@@ -401,7 +401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caeceacb624484daf8e379c2252fd246, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FacePrefab: {fileID: 3820597530829078601, guid: ba01461e3d679f943a614f2daf05c5d6,
+  m_FacePrefab: {fileID: 1629304850241826628, guid: e97c9e7abb4b09c4c8badf2dee806231,
     type: 3}
   m_MaximumFaceCount: 1
 --- !u!1 &547693464
@@ -487,6 +487,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   origin: {fileID: 527509185}
   models:
+  - name: Okulary
+    icon: {fileID: 21300000, guid: a95f30a97c4ba644587b80ecd8d6ac05, type: 3}
+    prefab: {fileID: 1629304850241826628, guid: e97c9e7abb4b09c4c8badf2dee806231,
+      type: 3}
+  - name: Jedzonko
+    icon: {fileID: 21300000, guid: 73723f422f9e6f84a852715cd66bd5e3, type: 3}
+    prefab: {fileID: 1629304850241826628, guid: d1011e70b60adc848855f84ec113ca04,
+      type: 3}
+  - name: Gwiazda
+    icon: {fileID: 21300000, guid: f7fcc229b4ec4994fb77a5199c6c08f4, type: 3}
+    prefab: {fileID: 1629304850241826628, guid: b315c01011f38704398bb293f0672af6,
+      type: 3}
   - name: "Bia\u0142y"
     icon: {fileID: 21300000, guid: f4115e392029d4048bdafd3e7061fbe5, type: 3}
     prefab: {fileID: 3820597530829078601, guid: ba01461e3d679f943a614f2daf05c5d6,
@@ -505,18 +517,6 @@ MonoBehaviour:
   - name: Niebieski
     icon: {fileID: 21300000, guid: 0c8b2b0078fbc0545bef4eb169fac9d5, type: 3}
     prefab: {fileID: 1629304850241826628, guid: db9b58dd43e98d842aedc61a7786138f,
-      type: 3}
-  - name: Okulary
-    icon: {fileID: 21300000, guid: a95f30a97c4ba644587b80ecd8d6ac05, type: 3}
-    prefab: {fileID: 1629304850241826628, guid: e97c9e7abb4b09c4c8badf2dee806231,
-      type: 3}
-  - name: Jedzonko
-    icon: {fileID: 21300000, guid: 73723f422f9e6f84a852715cd66bd5e3, type: 3}
-    prefab: {fileID: 1629304850241826628, guid: d1011e70b60adc848855f84ec113ca04,
-      type: 3}
-  - name: Gwiazda
-    icon: {fileID: 21300000, guid: f7fcc229b4ec4994fb77a5199c6c08f4, type: 3}
-    prefab: {fileID: 1629304850241826628, guid: b315c01011f38704398bb293f0672af6,
       type: 3}
   index: 0
   isChanging: 0
@@ -908,7 +908,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 885959665}
   m_Direction: 0
   m_Value: 0.5
-  m_Size: 0.32873118
+  m_Size: 0.74258035
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
